@@ -2,5 +2,5 @@
   "name": "test-now2-next",
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
-  "routes": [{ "src": "^/item/(?<id>[^/]", "dest": "/item?id=$id" }]
+  "routes": [{ "src": "^/item/(?<id>[^/]*)", "dest": "/item?id=$id" }]
 }
